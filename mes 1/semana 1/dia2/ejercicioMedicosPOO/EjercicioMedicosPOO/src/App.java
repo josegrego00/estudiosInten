@@ -16,6 +16,7 @@ public class App {
             System.out.println(persinal.toString());
         }
         for (Object persona : listaPersonalDelHOrpital) {
+            
     String nombreClase = persona.getClass().getSimpleName();
     int capacidades = 0;
     
